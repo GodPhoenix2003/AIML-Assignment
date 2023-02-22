@@ -23,3 +23,20 @@ sister(X,Y):-parent(Z,X),parent(Z,Y),female(X),X\==Y.
 brother(X,Y):-parent(Z,X),parent(Z,Y),male(X),X\==Y.
 uncle(X,Y):-parent(Z,Y),brother(X,Z).
 grandmother(X,Y):-mother(X,Z),parent(Z,Y).
+
+
+Output:-
+?-parent(pam,bob).
+true.
+?-father(tom,bob).
+true.
+?-haschild(pam).
+true.
+?-sister(liz, brad).
+true.
+?-brother(brad,ann).
+true.
+?-uncle(brad,ann).
+true.
+?-grandmother(pam,ann).
+true.
