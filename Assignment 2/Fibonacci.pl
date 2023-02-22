@@ -20,3 +20,10 @@ fibo(N,A,B):-
         fibo(N1,D,E)
      ).
 
+
+Output:-
+?-go.
+Enter a number: 10
+Fibonacci Series for 10 elements is:
+0,1,1,2,3,5,8,13,21,34,55,Complete
+true.
