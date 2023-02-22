@@ -20,3 +20,11 @@ fibo(N,A,B):-
         fibo(N1,D,E)
      ).
 
+
+Output:-
+?-go.
+Enter the first number: 5
+Enter the second number: 6
+Sum = 11
+Product = 30
+true.
