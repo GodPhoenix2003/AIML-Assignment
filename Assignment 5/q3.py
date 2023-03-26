@@ -6,7 +6,7 @@ df = pd.DataFrame({
     'Name' : ['Dean', 'Sam', 'Castiel', 'Jack'],
     'Sub1' : [79, 89, 95, 100],
     'Sub2' : [65, 79, 94, 99],
-    'Sub3' : [56, 99, 89, 95],
+    'Sub3' : [56, 99, 89, 95]
 })
 
 num_sub = 2
